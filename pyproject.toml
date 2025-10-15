@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "rvrt"
+version = "0.0.0"
+authors = []
+description = "Alltracker Fork for VSR Research"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/VinceHerfeld-Enhance/RVRT"
+"Bug Tracker" = "https://github.com/VinceHerfeld-Enhance/RVRT/issues"
+
+[tool.black]
+line-length = 120
+
+[tool.setuptools]
+package-dir = {"" = "src"}
